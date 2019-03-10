@@ -1,0 +1,100 @@
+body, html{
+	height: 122px;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:transparent url('Imagens/bgmenu.png') repeat;
+}
+
+html{
+	background:#999 url('Imagens/bghtml.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;  
+    -moz-background-size: cover;  
+    -o-background-size: cover;  
+    background-size: cover;  
+}
+
+#header{
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+}
+
+.logo{
+	font-size:60px;
+	font-family: 'sketch_block';
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	text-align: auto;
+	text-justify: inter-word;
+}
+
+.menu{
+	font-size:50px;
+	font-family: 'sketch_block';
+	position: absolute;
+	top: 30px;
+	left: 25%;
+	text-align: auto;
+	text-justify: inter-word;
+}
+
+.logo a:link{
+	color:#000;
+	text-decoration:none;
+}
+
+.logo a:visited{
+	color:#000;
+	text-decoration:none;
+}
+
+.logo a:hover{
+	color:#000;
+	text-decoration:none;
+}
+
+.logo a:active{
+	color:#000;
+	text-decoration:none;
+}
+
+
+
+#tabela{
+position: absolute;
+    top:143px;
+	left:50px;
+	margin-left: 21.9%;
+}
+
+.tabtext{
+	font-size: 24px;
+	font-family: 'caviar_dreamsregular';
+	text-align:center;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('Fontes/CaviarDreams-webfont.eot');
+    src: url('Fontes/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fontes/CaviarDreams-webfont.woff') format('woff'),
+         url('Fontes/CaviarDreams-webfont.ttf') format('truetype'),
+         url('Fontes/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sketch_block';
+    src: url('Fontes/Sketch_Block.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#tabSabores{
+margin-left: 30%;
+}

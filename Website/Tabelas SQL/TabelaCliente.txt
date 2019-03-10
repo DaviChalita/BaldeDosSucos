@@ -1,0 +1,16 @@
+create table cliente(
+	strLogin		varchar(15)	not null,
+	strSenha		varchar(15)	not null,
+	strEmail		varchar(50)	not null,
+	strTelefone		varchar(11)			,
+	strCEP			varchar(8)			,
+	strEndereco		varchar(90)			,
+	strNumero		varchar(6)			,
+	strComplemento	varchar(50)			,
+	strBairro		varchar(72)			,
+	strCidade		varchar(50)			,
+	strEstado		varchar(2)			
+);
+
+ALTER TABLE `cliente` ADD UNIQUE(`strLogin`);
+ALTER TABLE `cliente` ADD UNIQUE(`strEmail`);
