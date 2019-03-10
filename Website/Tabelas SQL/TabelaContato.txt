@@ -1,0 +1,5 @@
+create table contato(
+	strNomeContato		varchar(50)	not null,
+	strEmailContato		varchar(50)	not null,
+	strMensagem		varchar(500)	not null
+);

@@ -1,0 +1,325 @@
+body, html{
+	height: 122px;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:transparent url('Imagens/bgmenu.png') repeat;
+}
+
+html{
+	background:#999 url('Imagens/bghtml.jpg') no-repeat center center fixed;
+	  -webkit-background-size: cover;  
+    -moz-background-size: cover;  
+    -o-background-size: cover;  
+    background-size: cover;  
+}
+
+#header{
+	position: absolute;
+	left: 10%;
+	width: 90%;
+}
+
+/* DECLARAÇÕES DO CABEÇALHO */
+
+.logo{
+	font-size:60px;
+	font-family: 'sketch_block';
+	position: absolute;
+	width:20%;
+	top: 25px;
+	left:20px;
+}
+
+.logo a:link{
+	color:#000;
+	text-decoration:none;
+}
+
+.logo a:visited{
+	color:#000;
+	text-decoration:none;
+}
+
+.logo a:hover{
+	color:#000;
+	text-decoration:none;
+}
+
+.logo a:active{
+	color:#000;
+	text-decoration:none;
+}
+
+.menu{
+	font-size:18px;
+	font-family: 'caviar_dreamsregular';
+	position: absolute;
+	top: 45px;
+	left: 25%;
+	text-align: auto;
+	text-justify: inter-word;
+}
+
+.menu a:link{
+	color:#404E8E;
+	text-decoration:none;
+}
+
+.menu a:visited{
+	color:#404E8E;
+}
+
+.menu a:hover{
+	color:#5565B3;
+}
+
+.menu a:active{
+	color:#404E8E;
+}
+
+/* DECLARAÇÕES DO CONTEÚDO */
+
+#main{
+	position: absolute;
+	left:32%;
+	right: 10%;
+	top:129px;
+	background: transparent;
+	height: auto;
+	z-index:0;
+	color: #000;
+	font-family: 'caviar_dreamsregular';
+	margin-bottom:20px;
+	padding-left:16px;
+	padding-right:16px;
+}
+
+#main h3{
+	color: #fff;
+	background-color: #F64A46;
+	text-shadow: 1px 1px 0 #350803;
+	font-family: Trebuchet MS;
+	font-size: 14px;
+	text-align:center;
+	padding: 3px 5px 3px 5px;
+	margin: 16px 0px 16px 0px;
+}
+
+#main a img:hover{
+	-webkit-filter: brightness(105%);
+}
+
+/* DECLARAÇÕES DO RODAPÉ */
+
+.rodape{
+	position: relative;
+	bottom: 0px;
+	color: #E3DEDB;
+	font-size:12px;
+	font-family: 'caviar_dreamsregular';
+	font-weight: bold;
+	text-align:center;
+	height:25px;
+	padding: 10px 0 0px 0;
+	z-index:1;
+}
+
+/* DECLARAÇÕES DA SIDEBAR */
+
+#sidebar{
+	position: absolute;
+	left: 10%;
+	top:129px;
+	background: url('Imagens/filler.png') repeat;
+	width:20%;
+	height: auto;
+	z-index:0;
+	color: #000;
+	padding-bottom:16px;
+}
+
+.acesso{
+	font-family: 'caviar_dreamsregular';
+	padding: 0 16px 0 16px;
+}
+
+.acesso h3{
+	color: #fff;
+	background-color: #F64A46;
+	text-shadow: 1px 1px 0 #350803;
+	font-family: Trebuchet MS;
+	font-size: 14px;
+	text-align:center;
+	padding: 3px 5px 3px 5px;
+}
+
+.acesso a:link{
+	color:#F75753;
+	text-decoration:none;
+}
+
+.acesso a:visited{
+	color:#F75753;
+}
+
+.acesso a:hover{
+	color:#F97E7B;
+}
+
+.acesso a:active{
+	color:#F97E7B;
+}
+
+.endereco{
+	font-family: 'caviar_dreamsregular';
+	padding: 0 16px 0 16px;
+}
+
+.endereco h3{
+	color: #fff;
+	background-color: #F56F47;
+	text-shadow: 1px 1px 0 #C8350B;
+	font-family: Trebuchet MS;
+	font-size: 14px;
+	text-align:center;
+	padding: 3px 5px 3px 5px;
+}
+
+.endereco a:link{
+	color:#C8350B;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+.endereco a:visited{
+	color:#C8350B;
+}
+
+.endereco a:hover{
+	color:#F56F47;
+}
+
+.endereco a:active{
+	color:#F56F47;
+}
+
+.novidades{
+	font-family: 'caviar_dreamsregular';
+	padding: 0 16px 0 16px;
+}
+
+.novidades h3{
+	color: #fff;
+	background-color: #F39E49;
+	text-shadow: 1px 1px 0 #D2710F;
+	font-family: Trebuchet MS;
+	font-size: 14px;
+	text-align:center;
+	padding: 3px 5px 3px 5px;
+}
+
+.novidades a:link{
+	color:#D2710F;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+.novidades a:visited{
+	color:#D2710F;
+}
+
+.novidades a:hover{
+	color:#F39E49;
+}
+
+.novidades a:active{
+	color:#F39E49;
+}
+
+/* DECLARAÇÕES DOS OBJETOS DOS FORMULÁRIOS */
+
+
+.acesso input[type=text]{
+    border: 2px solid #ccc;
+	line-height: 16px;
+	width:100%;
+	padding: 5px 5px 5px 5px;
+}
+
+.acesso input[type=password]{     
+    border: 2px solid #ccc;
+	line-height: 16px;
+	width:100%;
+	padding: 5px 5px 5px 5px;
+}
+
+#main input[type=text]{
+    border: 2px solid #ccc;
+	line-height: 16px;
+	padding: 5px 5px 5px 5px;
+}
+
+#main input[type=password]{     
+    border: 2px solid #ccc;
+	line-height: 16px;
+	padding: 5px 5px 5px 5px;
+}
+
+input[type=submit]{
+	background:#F64A46;
+	color:#FFF;
+	font-family: 'caviar_dreamsregular';
+	font-size:20px;
+	border:0;
+	width:auto;
+	height:28px;
+	margin-bottom: 9px;
+}
+
+input[type=submit]:hover {
+        background:#F53732;
+}
+
+input[type=button]{
+	background:#F64A46;
+	color:#FFF;
+	font-family: 'caviar_dreamsregular';
+	font-size:20px;
+	border:0;
+	width:auto;
+	height:28px;
+	margin-bottom: 9px;
+}
+
+input[type=button]:hover {
+        background:#F53732;
+}
+
+textarea {
+	border: 2px solid #ccc;
+	line-height: 16px;
+	padding: 5px 5px 5px 5px;
+}
+
+/* DECLARAÇÃO DAS IMPORTAÇÕES DE FONTES */
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('Fontes/CaviarDreams-webfont.eot');
+    src: url('Fontes/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fontes/CaviarDreams-webfont.woff') format('woff'),
+         url('Fontes/CaviarDreams-webfont.ttf') format('truetype'),
+         url('Fontes/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sketch_block';
+    src: url('Fontes/Sketch_Block.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

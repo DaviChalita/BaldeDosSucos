@@ -1,0 +1,17 @@
+<?php
+ session_start();
+$nome = $_SESSION['login'];
+
+$modelo = 'Imagens/cartaofidelidade.png';
+
+$imagem = imagecreatefrompng($modelo); 
+
+$branco = ImageColorAllocate($imagem, 255, 255, 255); //Cria a cor de primeiro plano da imagem e configura-a para branco
+
+ImageString($imagem, 3, 3, 3, "Esse é o seu Cartão Fidelidade, ".$nome."! - A cada suco uma marcação!", $branco); //Imprime na imagem o texto PHPBrasil na cor branca que está na variável $branco
+
+ImagePng($imagem); //Converte a imagem para um GIF e a envia para o browser
+
+ImageDestroy($imagem); //Destrói a memória alocada para a construção da imagem GIF.
+
+?>
